@@ -132,11 +132,11 @@ const App = () => {
         </div>
 
         <div className="bg-gray-100 dark:bg-gray-800 py-4">
-          <div className="container mx-auto px-4">
+          <div className="flex justify-center items-center h-full lg:py-8 px-5">
             <input
               type="text"
               placeholder="Cari film kesayangan..."
-              className="movie-search w-full max-w-lg h-14 p-4 text-lg rounded-md border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="movie-search w-full max-w-lg h-14 p-4 text-lg lg:flex lg:items-center lg:justify-center rounded-md border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
               onChange={({ target }) => search(target.value)}
             />
           </div>
